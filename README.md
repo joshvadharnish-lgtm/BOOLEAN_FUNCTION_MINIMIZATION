@@ -1,5 +1,3 @@
-<img width="1732" height="908" alt="ChatGPT Image Aug 27, 2026, 09_49_54 PM" src="https://github.com/user-attachments/assets/3c67f35e-f34b-4b4e-969e-39b98aeb087b" /><img width="1410" height="1116" alt="ChatGPT Image Aug 27, 2026, 09_42_12 PM" src="https://github.com/user-attachments/assets/7e904b88-5010-4397-b068-d49cc387da2b" /># BOOLEAN_FUNCTION_MINIMIZATION
-
 **AIM:**
 
 To implement the given logic function verify its operation in Quartus using Verilog programming.
