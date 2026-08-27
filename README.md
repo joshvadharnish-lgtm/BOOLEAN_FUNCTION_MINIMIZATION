@@ -1,4 +1,4 @@
-# BOOLEAN_FUNCTION_MINIMIZATION
+<img width="1732" height="908" alt="ChatGPT Image Aug 27, 2026, 09_49_54 PM" src="https://github.com/user-attachments/assets/3c67f35e-f34b-4b4e-969e-39b98aeb087b" /><img width="1410" height="1116" alt="ChatGPT Image Aug 27, 2026, 09_42_12 PM" src="https://github.com/user-attachments/assets/7e904b88-5010-4397-b068-d49cc387da2b" /># BOOLEAN_FUNCTION_MINIMIZATION
 
 **AIM:**
 
@@ -32,15 +32,26 @@ Hardware – PCs, Cyclone II , USB flasher
 
 
 **Program:**
-
+```
+module ex2 (a,b,c,d,w,x,y,z,f1,f2);
+input a,b,c,d,w,x,y,z;
+output f1,f2;
+assign f1 = ~a&~b&~c&~d | a&~c&~d | ~b&c&~d | ~a&b&c&d | b&~c&d;
+assign f2 = x&~y&z | ~x&~y&z | ~w&x&y | w&~x&y | w&x&y;
+endmodule
+```
 /* Program to implement the given logic function and to verify its operations in quartus using Verilog programming. 
 
-Developed by: RegisterNumber:*/
+Developed by: G.DHARNISH  RegisterNumber:21225040069
 
 
 **RTL realization**
 
+<img width="1410" height="1116" alt="ChatGPT Image Aug 27, 2026, 09_42_12 PM" src="https://github.com/user-attachments/assets/6d6faf1e-fe30-484d-870e-affb3882025e" />
+
 **Output:**
+<img width="1732" height="908" alt="ChatGPT Image Aug 27, 2026, 09_49_54 PM" src="https://github.com/user-attachments/assets/2dab1c24-177f-4045-a473-708defb89bef" />
+
 
 **RTL**
 
