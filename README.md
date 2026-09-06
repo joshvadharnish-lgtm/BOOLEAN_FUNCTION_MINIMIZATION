@@ -32,7 +32,7 @@ Hardware – PCs, Cyclone II , USB flasher
 **Program:**
 Program to implement the given logic function and to verify its operations in quartus using Verilog programming.
 ```
-module ex2 (a,b,c,d,w,x,y,z,f1,f2);
+module exp2(a,b,c,d,w,x,y,z,f1,f2);
 input a,b,c,d,w,x,y,z;
 output f1,f2;
 assign f1 = ~a&~b&~c&~d | a&~c&~d | ~b&c&~d | ~a&b&c&d | b&~c&d;
@@ -45,11 +45,12 @@ Developed by: G.DHARNISH  RegisterNumber:21225040069
 
 
 **RTL realization**
+<img width="1917" height="1013" alt="image" src="https://github.com/user-attachments/assets/16ec4ea8-7e20-42f0-acf0-aa8d9f828748" />
 
-<img width="1410" height="1116" alt="ChatGPT Image Aug 27, 2026, 09_42_12 PM" src="https://github.com/user-attachments/assets/6d6faf1e-fe30-484d-870e-affb3882025e" />
 
 **Output:****RTL**
-<img width="1732" height="908" alt="ChatGPT Image Aug 27, 2026, 09_49_54 PM" src="https://github.com/user-attachments/assets/2dab1c24-177f-4045-a473-708defb89bef" />
+<img width="1917" height="1013" alt="image" src="https://github.com/user-attachments/assets/364bd135-8010-49a3-af61-228fa17fc09d" />
+
 
 **Result:**
 
